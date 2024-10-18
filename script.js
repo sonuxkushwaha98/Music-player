@@ -8,7 +8,7 @@ let play = document.querySelector(".playbtn");
 let pause = document.querySelector(".pausebtn");
 let audioElement = new Audio('song/0.mp3');
 let myprogressbar = document.querySelector("#myprogressbar");
-let currentsong = document.querySelector(".moving");
+let currentsong = document.querySelector(".currentsong");
 let searchbar = document.getElementById("searchbar");
 
 let song = [
