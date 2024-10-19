@@ -8,14 +8,17 @@ let play = document.querySelector(".playbtn");
 let pause = document.querySelector(".pausebtn");
 let audioElement = new Audio('song/0.mp3');
 let myprogressbar = document.querySelector("#myprogressbar");
-let currentsong = document.querySelector(".currentsong");
+let currentsong = document.querySelector(".moving");
 let searchbar = document.getElementById("searchbar");
+
+
+
 
 let song = [
   { songname: "Heeriye", filepath: "song/1.mp3", coverpath: "cover/heeriye.jpg", },
   { songname: "kesariya", filepath: "song/1.mp3", coverpath: "cover/kesariya.jpg", },
-  { songname: "kesariya", filepath: "song/1.mp3", coverpath: "", },
-  { songname: "Ve haniya", filepath: "song/Ve haniya.mp3", coverpath: "", },
+  { songname: "bharat jaan se pyara", filepath: "song/1.mp3", coverpath: "", },
+  { songname: "mix song", filepath: "song/Ve haniya.mp3", coverpath: "", },
   { songname: "9:45", filepath: "song/9.45.mp3", coverpath: "cover/no-pentali.jpg", },
   { songname: "Gulabi sadi", filepath: "song/Gulabi sadi.mp3", coverpath: "cover/gulabi sadi.jpg", },
   { songname: "Maine tera naam dil rakh diya", filepath: "song/Maine tera naam dil rakh diya.mp3", coverpath: "cover/tera naam dil rakh diya.jpg", },
@@ -148,3 +151,4 @@ let searchsong = () => {
     }
   }
 }
+
