@@ -33,6 +33,7 @@
     width: 15px;
     list-style: none;
     padding-top: 14px;
+    font-size: .7em;
 }
 .mymusic{
     margin: 0.5em;
@@ -52,7 +53,7 @@
 }
 
 .library {
-    min-height: 84vh;
+    height: 85.7vh;
     position: relative;
 }
 
@@ -332,11 +333,7 @@
         position: relative;
     }
 
-    .container {
-        width: 100vw;
-        height: 100vh;
-    }
-
+  
     .currentsong {
         height: 3vh;
         width: 21vw;
@@ -404,15 +401,7 @@
     }
 }
 
-@media (max-width:300px) {
-    html {
-        width: 111vw;
-    }
 
-    body {
-        width: 100%;
-    }
-}
 @media(max-width:1000px){
     .playbar {
         display: flex;
@@ -456,7 +445,7 @@
         color: aliceblue;
         position: absolute;
         left: 12em;
-        top: 5.2em;
+        top: 4rem;
         font-size: small;
         border-radius: 2vh;
         white-space: nowrap;
@@ -469,10 +458,7 @@
         width: 70vw;
         position: relative;
     }
-    .container {
-        width: 100vw;
-        height: 100vh;
-    }
+   
     .currentsong {
         height: 3vh;
         width: 23vw;
@@ -484,7 +470,6 @@
         color: aliceblue;
         position: absolute;
         left: 6.5em;
-        top: 4.3rem;
         font-size: small;
         border-radius: 2vh;
         white-space: nowrap;
@@ -521,4 +506,15 @@
         margin-top: 1rem;
         margin-bottom: 0.5em;
     }
+}
+
+@media(max-width:360px){
+    #searchbar {
+        height: 5vh;
+        width: 83%;
+        border-radius: 2vh;
+        padding-left: 2vh;
+        border: 2px solid black;
+    }
+   
 }
